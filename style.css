@@ -45,7 +45,6 @@ main {
     align-items: center;
 }
 
-
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -73,7 +72,9 @@ main {
     padding: 1.75rem 2rem;
     position: relative;
     background: var(--white);
+    color: var(--gray-blue);
     border-radius: 0.5rem;
+    box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.25);
 }
 
 .card__header {
@@ -114,14 +115,13 @@ main {
 }
 
 .purple-border {
-    border: 0.125rem solid #A775F1;
+    border: 0.125rem solid #a775f1;
 }
 
 .one {
     background: var(--violet);
     color: var(--white);
 }
-
 
 .two {
     background: var(--gray-blue);
@@ -141,11 +141,13 @@ footer {
 }
 
 .attribution {
-    font: 600 clamp(0.75rem, 0.607rem + 0.714vw, 1.25rem) "Barlow Semi Condensed";
+    font: 600 clamp(0.75rem, 0.607rem + 0.714vw, 1.25rem)
+        "Barlow Semi Condensed";
     text-align: center;
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
+    text-decoration: none;
 }
 
 @media screen and (min-width: 600px) {
