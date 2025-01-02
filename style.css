@@ -77,7 +77,16 @@ main {
     box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.25);
 }
 
+.purple-quotation {
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    right: clamp(1.5rem, 0.268rem + 5.258vw, 5rem);
+}
+
 .card__header {
+    position: relative;
+    z-index: 1;
     font: 600 1.25rem "Barlow Semi Condensed";
     margin-bottom: 1rem;
 }
